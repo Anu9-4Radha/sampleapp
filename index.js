@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Hello Anuradha, lets create the devops pipeline on Azure!')
+  response.send('Hello Anuradha, yes now web service is present on the azure portal!')
 })
 
 app.listen(app.get('port'), function() {
